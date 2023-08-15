@@ -1,0 +1,164 @@
+
+/* HEADER
+------------------------- */
+
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #7e7e7e!important; }
+
+.navbar-dark .navbar-nav .btn-compra-tickets { color: #25a342; }
+
+
+/* ESTILOS TITULOS
+-------------------------------------------------- */
+
+.titulo-gral {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+  .titulo-gral span {
+    display: block;
+    font-weight: 700;
+    font-size: 2.2rem;
+  }
+
+ 
+
+ /* CAROUSEL
+-------------------------------------------------- */
+
+.bg-carousel-ba1 { background-image: url(img/ceoslideeqq.jpg); }
+.bg-carousel-ba2 { background-image: url(img/Mockup\ 1.jpg); }
+.bg-carousel-ba3 { background-image: url(img/Mockup\ 2.jpg); }
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+
+#servicios{
+  padding-top: 2%;
+}
+
+/* SECCION MITAD IMG, MITAD TEXTO
+-------------------------------------------------- */
+
+.bg-aside1 {
+    background: #db9806;
+    padding: 2rem;
+  }
+
+
+  /* METODOS DE PAGO
+-------------------------------------------------- */
+
+.circle-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.circle-image img {
+  width: 100%;
+  height: 100%;
+}
+
+  /* FOOTER
+-------------------------------------------------- */
+
+#main-footer {
+    background: #212C41;
+    color: #fff;
+    padding: 1.5rem;
+  }
+  
+  #main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+  }
+  #main-footer .nav-link:hover { opacity: .7; }
+  
+  @media (min-width: 992px) {
+    #main-footer .nav-link span { display: block; }
+  }
+
+.foofinal{
+  text-align: center;
+ 
+}
+
+.contenedor-footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttons {
+  display: flex;
+  justify-content: end;
+
+  
+  }
+    
+  .buttons a {
+      text-decoration: none;
+      font-size: 28px;
+      width: 60px;
+      height: 60px;
+      line-height: 60px;
+      text-align: center;
+      background: #314652;
+      color: #f1f1f1;
+      border-radius: 50%;
+      box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+      transition: all .4s ease-in-out;
+  }
+    
+  .buttons a:hover {
+      transform: scale(1.2);
+  }
+
+  .bombillo{
+    display: flex;
+    justify-content: center;
+  }
+
+  .whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+  }
+  
+  .whatsapp-float img {
+    width: 30px;
+    margin-top: 15px;
+  }
+  
+  p{
+    text-align: justify;
+  }
+
+  .metododepago{
+    text-align: center;
+  }
